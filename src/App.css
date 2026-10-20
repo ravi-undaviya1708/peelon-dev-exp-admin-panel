@@ -1,0 +1,102 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.custom-tabs-list {
+  border-bottom: none !important;
+}
+
+.custom-tabs-list .mantine-Tabs-tab {
+  border-bottom: none !important;
+}
+
+.custom-tabs-list .mantine-Tabs-tab[data-active] {
+  border-bottom: 2px solid green !important;
+}
+
+.m_d0e2b9cd {
+  border-radius: 10px 10px 0px 0px !important;
+  background-color: white !important;
+  margin: 0px 3px !important;
+
+}
+
+.m_54c44539 {
+  background-color: #A5A5A5 !important;
+
+}
+
+.custom-small-popup {
+  width: 350px !important;
+  /* Default is ~500px */
+  padding: 16px !important;
+  border-radius: 12px;
+}
+
+.custom-title {
+  font-size: 23px;
+}
+
+.custom-confirm-btn,
+.custom-cancel-btn {
+  font-size: 16px !important;
+  padding: 6px 12px !important;
+  border-radius: 6px;
+}
+
+.custom-icon {
+  transform: scale(0.7);
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.inputGreenFocus:focus {
+  border: 1px solid #12A14F !important;
+  box-shadow: 0 0 0 0.1px #12A14F;
+}
+
+.m_89ab340 {
+  overflow: none !important;
+  scrollbar-width: none;
+}
+
+.mantine_AppShell-root {
+  overflow: none !important;
+  scrollbar-width: none;
+}
+
+
+.styled-text-input-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+}
+
+.styled-text-input-label {
+  margin-bottom: 4px;
+  font-size: 14px;
+  color: #000;
+}
+
+.styled-text-input {
+  padding: 0.5rem 0.9rem;
+  font-size: 1rem;
+  color: black;
+  border: 1px solid #e5e5e5;
+  border-radius: 4px;
+  outline: none;
+  transition: border 0.2s, box-shadow 0.2s;
+  width: 100%;
+}
+
+.styled-text-input::placeholder {
+  color: #999;
+}
+
+.styled-text-input:focus {
+  border: 1px solid #3D6441;
+  box-shadow: 0 0 0 1px #3D6441;
+}
