@@ -2,7 +2,6 @@
 // export const baseURL = "https://api.peelon.co";
 // export const baseURL = "http://localhost:8000";
 export const baseURL = import.meta.env.VITE_ADMIN_BASE_URL;
-console.log("baseURL :>> ", baseURL);
 export const authURL = `${baseURL}/auth`;
 export const hostelAdminURL = `${baseURL}/hostel-admin`;
 export const superAdminURL = `${baseURL}/super-admin`;
